@@ -136,3 +136,50 @@ h2 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .recipe-container {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .recipe-card {
+    padding: 0;
+  }
+
+  .recipe-content {
+    padding: 20px;
+  }
+
+  .preparation-section,
+  .nutrition-section {
+    padding: 15px;
+  }
+
+  .preparation-section {
+    margin-bottom: 20px;
+  }
+
+  .ingredients ul,
+  .instructions ol {
+    padding-left: 15px;
+  }
+
+  .instructions li {
+    font-size: 0.9em;
+  }
+
+  .nutrition-table td {
+    padding: 8px 0;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+}

@@ -13,7 +13,7 @@ html {
 }
 body {
   font-family: "Young-serif", sans-serif;
-  background-color:#f3e5d8;
+  background-color: #f3e5d8;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -40,9 +40,9 @@ h2 {
 }
 .recipe-container {
   padding: 50px;
-  background-color:#fff;
+  background-color: #fff;
   max-width: 800px;
-  margin-top: 80px ;
+  margin-top: 80px;
   border-radius: 20px;
 }
 .recipe-card {
@@ -60,13 +60,17 @@ h2 {
   height: auto;
   border-radius: 10px;
 }
-.preparation-section{
-  background-color:#f7eadf;
+.preparation-section {
+  background-color: #f7eadf;
   border-radius: 10px;
-  line-height: 1.5;
+  line-height: 2;
   padding: 20px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
 }
+.preparation-section strong{
+   color: #4b2e2e;
+} 
+
 .instructions ol {
   padding-left: 20px;
   margin-bottom: 20px;
@@ -77,28 +81,34 @@ h2 {
   margin-bottom: 10px;
   color: #444;
 }
+.ingredients,
+.instructions,
+.nutrition-section {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
 
-strong {
+.instructions li strong {
   color: #4b2e2e;
 }
 
+
 .nutrition-section {
   background-color: #fff;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding: 20px;
   margin: 0 auto;
-  
 }
 
 .nutrition-title {
-  color: #7d2e4d; 
+  color: #7d2e4d;
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .nutrition-description {
-  color: #7f7f7f; 
+  color: #7f7f7f;
   font-size: 1em;
   margin-bottom: 20px;
 }
@@ -112,6 +122,7 @@ strong {
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
   color: #636b65;
+  
 }
 
 .nutrition-value {

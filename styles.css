@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "Young-serif";
-  src: url(https://fonts.google.com/specimen/Young+Serif);
-}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -20,10 +17,11 @@ body {
   align-items: center;
   min-height: 100vh;
   overflow-x: hidden;
-  gap: 25px;
+  gap: 30px;
 }
 h1 {
   font-size: 2em;
+  font-weight: 700;
   margin-bottom: 10px;
   color: #2d2927;
 }
@@ -138,7 +136,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
   body {
     font-size: 14px;
     padding: 10px;
